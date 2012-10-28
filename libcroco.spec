@@ -1,11 +1,11 @@
 Summary:	A CSS2 parsing library
 Name:		libcroco
-Version:	0.6.6
+Version:	0.6.8
 Release:	1
 License:	LGPL
 Group:		Libraries
 Source0:	http://ftp.gnome.org/pub/gnome/sources/libcroco/0.6/%{name}-%{version}.tar.xz
-# Source0-md5:	bc2b2bb80f14e76caed4f76aa3a01070
+# Source0-md5:	767e73c4174f75b99695d4530fd9bb80
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	glib-devel
