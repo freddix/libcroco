@@ -1,7 +1,7 @@
 Summary:	A CSS2 parsing library
 Name:		libcroco
 Version:	0.6.8
-Release:	1
+Release:	2
 License:	LGPL
 Group:		Libraries
 Source0:	http://ftp.gnome.org/pub/gnome/sources/libcroco/0.6/%{name}-%{version}.tar.xz
@@ -53,6 +53,8 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
+
+%{__rm} $RPM_BUILD_ROOT%{_libdir}/*.la
 
 %clean
 rm -rf $RPM_BUILD_ROOT
